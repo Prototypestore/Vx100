@@ -7,17 +7,17 @@
 
 .hero {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f7f7f6;
-  background-image: url('https://tse1.mm.bing.net/th/id/OIP.qFEWiPFBpV0ex7KBvyQofAHaEo?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3');
+  background-image: url('https://img.freepik.com/premium-vector/floral-leaf-vector-background-design-with-soft-pastel-color_931262-390.jpg');
   background-repeat: no-repeat;
   background-postiotion: center;
   backgound-size: cover;
   height: 100vh;
   width: 100%;
   text-align: center;
+  flex-direction: column;
 }
 
 .hero h1 {
