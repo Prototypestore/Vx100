@@ -1,5 +1,65 @@
 .body {
   text-align: left;
   font-size: 16px;
-  background-color: #f7f7f6
+  background-color: #f7f7f6;
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f6;
+  background-image: url('https://tse1.mm.bing.net/th/id/OIP.qFEWiPFBpV0ex7KBvyQofAHaEo?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3');
+  background-repeat: no-repeat;
+  background-postiotion: center;
+  backgound-size: cover;
+  height: 100vh;
+}
+
+.hero h1, p {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 36px;
+  color: black;
+  font-family: Brush Script MT;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 18px;
+  color: #98975c;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav ul {
+  padding: 10px;
+}
+
+.nav li {
+  list-style: none;
+  gap: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#button {
+  background-color: white;
+  border-style: 1px solid;
+  border-color: #000000;
+  width: 50px;
+  height: 50px;
 }
