@@ -7,6 +7,7 @@
 
 .hero {
   display: flex;
+  lex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f7f7f6;
@@ -15,24 +16,20 @@
   background-postiotion: center;
   backgound-size: cover;
   height: 100vh;
-}
-
-.hero h1, p {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  text-align: center;
 }
 
 .hero h1 {
-  text-align: center;
   font-size: 36px;
   color: black;
   font-family: Brush Script MT;
 }
 
 .hero p {
-  text-align: center;
   font-size: 18px;
   color: #98975c;
+  margin-top: 20px;
 }
 
 .nav {
@@ -40,6 +37,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .nav ul {
@@ -60,6 +58,21 @@
   background-color: white;
   border-style: 1px solid;
   border-color: #000000;
+  border-radius: 35px;
   width: 50px;
   height: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
 }
