@@ -126,9 +126,15 @@
   font-size: 18px;
 }
 
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
 .follow img {
-  display: block;
-  margin-top: 5px;
   width: 20px;
   height: auto;
 }
