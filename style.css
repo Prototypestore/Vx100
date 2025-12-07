@@ -66,14 +66,16 @@
 }
 
 .form input {
-  position: static;
+  position: relative;
+  left: 0;
   border-radius: 35px;
   padding: 5px 10px;
   border: 1px solid #ccc;
 }
 
 #button {
-  position: static;
+  position: relative;
+  left: 0;
   background-color: transparent;
   border: 1px solid #333;
   border-radius: 50px;
@@ -116,4 +118,11 @@
 
 .grid h3 {
   font-size: 18px;
+}
+
+.follow img {
+  display: block;
+  margin-top: 5px;
+  width: 20px;
+  height: auto;
 }
