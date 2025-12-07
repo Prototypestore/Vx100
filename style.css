@@ -2,11 +2,12 @@
   text-align: left;
   font-size: 16px;
   background-color: #f7f7f6;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f7f7f6;
@@ -17,7 +18,6 @@
   height: 100vh;
   width: 100%;
   text-align: center;
-  flex-direction: column;
 }
 
 .hero h1 {
@@ -40,7 +40,6 @@
 
 .nav ul {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -49,10 +48,8 @@
 }
 
 .nav li {
-  display: flex;
-  gap: 5px;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .nav a {
@@ -62,7 +59,7 @@
 
 .form input {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   z-index: 10;
   border-radius: 35px;
@@ -70,12 +67,11 @@
 
 #button {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 15px;
   z-index: 10;
   background-color: transparent;
-  border-style: 1px solid;
-  border-color: #000000;
+  border: 1px solid #333;
   border-radius: 50px;
   width: 30px;
   height: 30px;
