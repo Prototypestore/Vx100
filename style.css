@@ -59,23 +59,21 @@
 
 .form {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 8px;
   margin-top: 10px;
 }
 
 .form input {
-  position: relative;
-  left: 0;
+  position: static;
   border-radius: 35px;
   padding: 5px 10px;
   border: 1px solid #ccc;
 }
 
 #button {
-  position: relative;
-  left: 0;
+  position: static;
   background-color: transparent;
   border: 1px solid #333;
   border-radius: 50px;
