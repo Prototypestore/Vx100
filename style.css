@@ -106,3 +106,14 @@
   height: auto;
   display: block;
 }
+
+.grid h3,
+.grid p {
+  text-align: center;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.grid h3 {
+  font-size: 18px;
+}
