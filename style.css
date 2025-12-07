@@ -62,7 +62,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 8px;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .form input {
@@ -111,7 +111,7 @@
 
 .grid img {
   width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
 }
 
@@ -128,13 +128,13 @@
 
 .follow {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;  
   gap: 5px;
-  flex-wrap: wrap;
 }
 
 .follow img {
   width: 20px;
-  height: auto;
+  height: 15px;
 }
