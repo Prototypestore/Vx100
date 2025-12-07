@@ -63,24 +63,28 @@
   position: relative;
 }
 
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
 .form input {
   width: 100%;
   border-radius: 35px;
   padding: 5px 40px 5px 15px;
   border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .form #button {
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: 50%;
-  transform: translateY(-50);
-  height: 15px;
+  transform: translateY(-50%);
   border: none;
-  background-color: transparent;
-  padding: 0;
+  background: transparent;
   cursor: pointer;
-  z-index: 10;
 }
 
 .grid {
