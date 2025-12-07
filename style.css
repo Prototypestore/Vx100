@@ -56,14 +56,6 @@
 }
 
 .form {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.form {
   position: relative;
   width: fit-content;
   margin: 0 auto;
