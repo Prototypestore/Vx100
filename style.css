@@ -128,6 +128,27 @@
   font-size: 18px;
 }
 
+.policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.policy a {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+.policy a:not(:last-child)::after {
+  content: ".";
+  margin-left: 5px;
+}
+
 .follow {
   display: flex;
   flex-direction: row;
@@ -137,6 +158,6 @@
 }
 
 .follow img {
-  width: 25px;
+  width: auto;
   height: 15px;
 }
