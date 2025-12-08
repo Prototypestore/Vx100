@@ -70,7 +70,8 @@
 }
 
 .icon svg {
-  width: 100%;
+  width: 45px;
+  height: 45px;
   object-fit: contain;
   aspect-ratio: 1/1;
 }
