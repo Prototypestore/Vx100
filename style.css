@@ -33,7 +33,7 @@
   margin-top: 20px;
 }
 
-.container2 svg {
+.container2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -63,7 +63,7 @@
 
 .icon {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 10px;
   align-items: center;
   justify-items: center;
