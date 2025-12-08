@@ -105,7 +105,7 @@
   border: 1px solid #fefefe;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
 }
 
 .grid img {
@@ -125,38 +125,4 @@
 
 .grid h3 {
   font-size: 18px;
-}
-
-.policy {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-}
-
-.policy a {
-  position: relative;
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-  margin: 0 5px;
-}
-
-.policy a:not(:last-child)::after {
-  content: ".";
-  margin-left: 5px;
-}
-
-.follow {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;  
-  gap: 5px;
-}
-
-.follow img {
-  width: auto;
-  height: 15px;
 }
