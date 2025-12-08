@@ -61,6 +61,25 @@
   max-height: none;
 }
 
+.icon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.icon svg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  display: block;
+}
+
+.icon p {
+  text-align: center;
+}
+
 .form {
   position: relative;
   width: fit-content;
