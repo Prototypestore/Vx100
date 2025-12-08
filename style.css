@@ -65,11 +65,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
   gap: 10px;
+  align-items: center;
+  justify-items: center;
 }
 
 .icon svg {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   aspect-ratio: 1/1;
   display: block;
 }
