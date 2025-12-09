@@ -43,6 +43,8 @@
   height: 45px;
   width: 45px;
   display: block;
+  max-width: none;
+  max-height: none;
 }
 
 .container {
