@@ -127,15 +127,14 @@
   font-size: 18px;
 }
 
-
-.grid form2 {
+.form2 button {
   border-radius: 35px;
   justify-items: center;
   align-items: center;
   text-align: center;
   font-size: 14px;
   border: 1px solid #333;
-  background-color: none;
+  background-color: transparent;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   color: black;
 }
