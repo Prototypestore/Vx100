@@ -1,9 +1,11 @@
-const slides = document.querySelectorAll('.carousel img');
+const track = document.querySelector('.track');
+  const slides = document.querySelectorAll('.track img');
   let current = 0;
 
   function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
+    track.scrollTo({
+      left: track.clientWidth * index,
+      behavior: 'smooth'
     });
   }
 
