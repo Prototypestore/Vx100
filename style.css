@@ -100,7 +100,7 @@
 .track {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatorty;
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   height: 100%;
@@ -114,13 +114,14 @@
   object-fit: cover;
 }
 
+/* Hide scrollbars */
 .track::-webkit-scrollbar {
   display: none;
 }
 
 .track {
   -ms-overflow-style: none;
-  scroll-width: none;
+  scrollbar-width: none;
 }
 
 .form3 {
@@ -151,7 +152,6 @@
 
 .form3 button:hover {
   background-color: rgba(0,0,0,0.8);
-}
 
 .grid {
   display: grid;
