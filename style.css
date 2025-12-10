@@ -141,3 +141,25 @@
   color: black;
   margin-bottom: 5px;
 }
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.review {
+  width: 100%;
+  max-width: 300px;
+}
+
+.review img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
