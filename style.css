@@ -144,7 +144,7 @@
 
 .review {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
@@ -154,7 +154,7 @@
 .review img {
   width: 100%;
   height: auto;
-  max-height: 250px;
+  max-height: 300px;
   max-width: 300px;
   display: block;
   border-radius: 10px;
