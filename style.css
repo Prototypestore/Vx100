@@ -33,22 +33,6 @@
   margin-top: 20px;
 }
 
-.container2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 48px;
-  width: 48px;
-}
-
-.container2 svg {
-  height: auto;
-  width: 100%;
-  display: block;
-  max-width: 45px;
-  max-height: 45px;
-}
-
 .container {
   display: flex;
   justify-content: flex-end;
