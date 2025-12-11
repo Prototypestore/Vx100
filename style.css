@@ -100,7 +100,7 @@
 .story img {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-templare-rows: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
   gap: 10px;
   margin-top: 5px;
   width: 100%;
