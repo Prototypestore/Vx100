@@ -76,21 +76,6 @@
   z-index: 10;
 }
 
-.icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon svg {
-  width: 100%;
-  height: 100%;
-  max-width: 45px;
-  max-height: 45px;
-  display: block;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -129,21 +114,7 @@
   font-size: 18px;
 }
 
-.form2 button {
-  display: flex;
-  border-radius: 35px;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
-  font-size: 14px;
-  border: 1px solid #333;
-  background: transparent;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  color: black;
-  margin-bottom: 5px;
-}
-
-.form2 a {
+.grid a {
   text-decoration: none;
   color: black;
 }
