@@ -143,6 +143,11 @@
   margin-bottom: 5px;
 }
 
+.form2 a {
+  text-decoration: none;
+  color: black;
+}
+
 .review {
   display: flex;
   flex-direction: row;
