@@ -76,46 +76,6 @@
   z-index: 10;
 }
 
-.story {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: start;
-  padding: 40px 0;
-}
-
-.story h2 {
-  font-size: 20px;
-  margin-bottom: 8px;
-}
-
-.story p {
-  max-width: 350px;
-  line-height: 1.5;
-  margin-bottom: 5px;
-}
-
-.story img {
-  margin-top: 5px;
-}
-
-storys {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 10px;
-}
-
-storys img {
-  object-fit: cover;
-  border-radius: 8px;
-  width: 255px;
-  height: 250px;
-}
-
-#img1 {
-  grid-row: span 2;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
