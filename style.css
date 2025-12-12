@@ -12,6 +12,7 @@
   align-items: center;
   background-color: #f7f7f6;
   background-image: url('hero.img.svg');
+  border-radius: 8px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -100,6 +101,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px;
+  margin-bottom: 10px;
 }
 
 .grid > div {
@@ -145,6 +147,7 @@
   align-items: center;
   gap: 10px;
   aspect-ratio: 1/1;
+  margin-bottom: 10px;
 }
 
 .review img {
