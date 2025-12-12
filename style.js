@@ -1,7 +1,7 @@
 const track = document.querySelector('.slides');
 const slides = Array.from(track.children);
 let index = 0;
-const slideWidth = 510; // match your CSS width
+const slideWidth = 560; // match your CSS width
 
 function showSlide(i) {
   track.style.transform = `translateX(-${i * slideWidth}px)`;
