@@ -3,7 +3,7 @@ const slides = Array.from(track.children);
 let index = 0;
 
 function showSlide(i) {
-  track.style.transform = `translateX(-${i * 480}px)`;
+  track.style.transform = `translateX(-${i * 510}px)`;
 }
 
 document.querySelector('.slide-button2').addEventListener('click', (e) => {
