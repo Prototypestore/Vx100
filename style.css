@@ -140,6 +140,58 @@
   color: black;
 }
 
+.slide {
+  position: relative;
+  width: 250px;
+  height: 255px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.deal {
+  min-width: 250px;
+  height: 255px;
+  flex-shrink: 0;
+  text-align: center;
+  background: #fff;
+}
+
+.deal img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.slide-button,
+.slide-button2 {
+  pointer-events: auto;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
 .review {
   display: flex;
   flex-direction: row;
