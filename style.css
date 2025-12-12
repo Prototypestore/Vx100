@@ -101,7 +101,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .grid > div {
@@ -146,6 +146,7 @@
   height: 255px;
   margin: 0;
   margin-top: 15px;
+  margin-bottom: 40px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -200,7 +201,7 @@ form {
   align-items: center;
   gap: 10px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .review img {
