@@ -142,7 +142,7 @@
 
 .slide {
   position: relative;
-  width: 480px;
+  width: 510px;
   height: 255px;
   margin: auto;
   overflow: hidden;
@@ -157,7 +157,7 @@
 }
 
 .deal {
-  min-width: 480px;
+  min-width: 510px;
   height: 255px;
   flex-shrink: 0;
   text-align: center;
