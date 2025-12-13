@@ -93,11 +93,11 @@ body {
   margin-bottom: 5px;
 }
 
-.form label[name="quantity"] {
+.form-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 15px;
+  align-items: center;
+  gap: 10px;
 }
 
 .form button {
