@@ -9,7 +9,7 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   width: 100%;
@@ -58,7 +58,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 50px;
 }
 
 .info {
