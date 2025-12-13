@@ -4,10 +4,6 @@
   background-color: #f7f7f6;
   font-family: Arial, sans-serif;
   margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
 }
 
 .nav {
@@ -98,7 +94,8 @@
 .form label[name="quantity"] {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .form button {
