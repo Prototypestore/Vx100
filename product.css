@@ -54,16 +54,21 @@
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: flex-end;
   margin-right: 5px;
+  margin-top: 0;
   margin-bottom: 10px;
-  text-align: left;
   font-size: 16px;
 }
 
 .info h1 {
   font-size: 20px;
+  text-align: left;
+}
+
+.info p {
+  text-align: left;
 }
 
 .form {
@@ -87,6 +92,7 @@
 }
 
 .form button {
+  margin-top: 10px;
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 35px;
