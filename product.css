@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;                 
-  justify-content: flex-end;
-  align-items: flex-start;
+.body {
   text-align: left;
   font-size: 16px;
   background-color: #f7f7f6;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 .nav {
@@ -60,9 +56,11 @@ body {
 .info {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-end;
+  margin-right: 5px;
+  margin-top: 0;
   font-size: 16px;
-  margin: 5px;
 }
 
 .info h1 {
@@ -105,7 +103,7 @@ body {
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 35px;
-  border: 1px solid #333;
+  border-style: 1px solid #333;
   background-color: transparent;
   color: black;
 }
@@ -119,3 +117,4 @@ body {
   text-decoration: none;
   color: black;
 }
+
