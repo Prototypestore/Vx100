@@ -53,14 +53,21 @@
   display: block;
 }
 
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-right: 5px;
-  margin-top: 0;
   font-size: 16px;
+  margin: 0;
 }
 
 .info h1 {
@@ -78,7 +85,6 @@
   justify-content: flex-end;
   align-items: flex-start;
   margin-top: 10px;
-  margin-right: 5px;
   text-align: left;
 }
 
@@ -111,9 +117,8 @@
 #a {
   display: flex;
   justify-content: flex-start;
-  align-items: start;
+  align-items: flex-start;
   margin-bottom: 5px;
-  margin-left: 5px;
   text-decoration: none;
   color: black;
 }
